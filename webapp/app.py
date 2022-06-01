@@ -1,3 +1,5 @@
+import sys
+sys.setrecursionlimit(500000)
 from flask import Flask, request, jsonify
 import torch 
 import numpy as np
@@ -11,6 +13,8 @@ print(1)
 
 @app.route("/predict", methods=["POST"])
 
+# The predict() function is a Flask route that enables the predict URL when the application is running. The function only allows POST 
+# HTTP methods.
 def predict():
     input_ids = torch.tensor(tokenizer.encode(request.json[0], add_special_tokens = True)).unsqueeze(0)
 
