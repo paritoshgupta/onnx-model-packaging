@@ -2,6 +2,8 @@
 
 - Example shows using an ONNX model and package within a container that serves a Flask app that performs the prediction.
 
+- CI/CD platforms are the foundation of automation and reliable results.
+
 - Model Used:
     - RoBERTa Sequence Classification 
     - place the model (.onnx) file inside /webapp directory
