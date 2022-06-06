@@ -26,18 +26,9 @@ Model Used:
 
 - **Secrets required for Microsoft Azure and GitHub Container Registry.**
 
-# General Notes
+# General Notes on KaizenML 
 
-- CI/CD platforms are the foundation of automation and reliable results.
-- Build, Test, Release, Deploy and Validate.
-- SageMaker is a specialized ML platform that goes beyond offering steps in a pipeline to accomplish a goal like publishing a model.
-- AutoML is the automation of the tasks related to training a model on clean data.
-- A pipeline is nothing but a set of steps to perform specific objective like Publishing model into production environment when run.
-- Flake8  for Python for linting
-- What may happen in ML and AI is that the technique is essentially commotized. Instead, the automation itself and the ability to execute the automation is the key. 
-- Even with extensive automation in machine learning, humans must make executive decisions about the bigger picture. 
-- Automation through continuous improvement allows data scientists, ml engineers and entire org to focus on what matters i.e. execution.
-- All complex software require automation and simplification of critical components.
+- Practitioners of ML can piggyback on the research FAANG have done. They all see a future in high-level automated ML running on specialized hardware.
 - KaizenML - Automated Process Improvement;  AutoML - Automated Model Creation
 - KaizenML involved building Features Stores i.e. a registry of high-quality ML inputs and the ability to monitor data for drift and register and serve out ML models.
 - Continuously improve ML is the concept of a Feature Store.
@@ -49,6 +40,15 @@ Model Used:
     - The Fature store needs automation to improve the quality of ML inputs
     - The deployment required automation through automated deployment (CD) and the native use of Cloud elasticity (Auto-scaling)
     - Everything requires automation through complex software systems, and Features Stores are just one of many MLOps components needing continuous improvement i.e. KaizenML.
+- AutoML Platforms:
+    - Apple's CreateML; models can be converted into ONNX and can be used anywhere. 
+    - Apple's Core ML
+- Computer Vision on the GCP platform. These options appear in order of difficulty:
+    - write ML code that trains a model 
+    - use Google AutoMl Vision
+    - Download a pretrained model from Tensorflow Hub
+    - use the Vision AI API
+    - Google's managed ML platform - Vertex AI
 
 ![Screenshot](images/KaizenML.jpg)
 
