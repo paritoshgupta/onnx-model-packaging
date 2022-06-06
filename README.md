@@ -1,12 +1,20 @@
 - Packaging ML Model is all about getting a model into container to take advantage of contarized processed to help sharing, distributing and easy deployment
 
-- Example shows using an ONNX model and package within a container that serves a Flask app that performs the prediction.
+- The example in the reposhows using an ONNX model and package within a container that serves a Flask app that performs the prediction.
+
+*General Notes*
 
 - CI/CD platforms are the foundation of automation and reliable results.
 - Build, Test, Release, Deploy and Validate.
 - SageMaker is a specialized ML platform that goes beyond offering steps in a pipeline to accomplish a goal like publishing a model.
 - AutoML is the automation of the tasks related to training a model on clean data.
 - A pipeline is nothing but a set of steps to perform specific objective like Publishing model into production environment when run.
+- Flake8  for Python for linting
+- What may happen in ML and AI is that the technique is essentially commotized. Instead, the automation itself and the ability to execute the automation is the key. 
+- Even with extensive automation in machine learning, humans must make executive decisions about the bigger picture. 
+- Automation through continuous improvement allows data scientists, ml engineers and entire org to focus on what matters i.e. execution.
+- KaizenML - Automated Process Improvement;  AutoML - Automated Model Creation
+- KaizenML involved building Features Stores i.e. a registry of high-quality ML inputs and the ability to monitor data for drift and register and serve out ML models.
 
 - Model Used:
     - RoBERTa Sequence Classification 
