@@ -6,7 +6,6 @@ Summary:
 
 - GitHub actions shows an example of creating a container while the model is in Microsoft Azure Model Registry, image is created by retrieving the model from Azure Model Regstry and then finally creating an Docker image which is later pushed to GitHub Container Registry.*
 
-
 Model Used:
     - RoBERTa Sequence Classification 
     - place the model (.onnx) file inside /webapp directory
@@ -51,5 +50,6 @@ Model Used:
     - The deployment required automation through automated deployment (CD) and the native use of Cloud elasticity (Auto-scaling)
     - Everything requires automation through complex software systems, and Features Stores are just one of many MLOps components needing continuous improvement i.e. KaizenML.
 
-    ![Screenshot](images/KaizenML.jpg)
+![Screenshot](images/KaizenML.jpg)
 
+![Screenshot](images/Featurestore_vs_Datawarehouse.jpg)
