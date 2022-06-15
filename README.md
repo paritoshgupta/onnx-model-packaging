@@ -49,6 +49,10 @@ Model Used:
     - Download a pretrained model from Tensorflow Hub
     - use the Vision AI API
     - Google's managed ML platform - Vertex AI
+- Modeling is a trivial amount of the work in a real-world ML system. Likewise, it should be no surprise that AutoML, i.e. the automation of modeling is a small part of what needs to be automated
+- Everything from DATA AUTOMATION TO FEATURE STORAGE TO MODELING TO DEPLOYMENT TO AN EVAULATION OF MODEL IN PRODUCTION is a canditate for full automation.
+- KaizenML means you are constantly improving every single part of the machine learning system.
+- Just as Automated transmission and cruise-control systems assist an expet driver, automation of the subcomponent of a production machine learning system makes the human in charge of the ML decisions better.
 
 ![Screenshot](images/KaizenML.jpg)
 
